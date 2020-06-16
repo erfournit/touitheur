@@ -7,8 +7,8 @@ $app->setService('database', new Database(
  getenv('MYSQL_ADDON_PORT')
 )); 
 
-/*<?php
-$DB_HOST = "bmt6d21l2lvalxwtzw6e-mysql.services.clever-cloud.com";
+<?php
+/*$DB_HOST = "bmt6d21l2lvalxwtzw6e-mysql.services.clever-cloud.com";
 $DB_NAME = "bmt6d21l2lvalxwtzw6e";
 $DB_USERNAME = "uwbmnigylsvyg8aq";
 $DB_PASSWORD='72lCQOrmwSoLp76FxUKG';
@@ -18,4 +18,6 @@ try{
     $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 }catch(PDOException $e){
     die('Erreur: '.$e->getMessage());
-}*/
+}
+*/
+?>
