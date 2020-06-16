@@ -1,14 +1,6 @@
 
-$app->setService('database', new Database(
- getenv('MYSQL_ADDON_HOST'),
- getenv('MYSQL_ADDON_DB'),
- getenv('MYSQL_ADDON_USER'),
- getenv('MYSQL_ADDON_PASSWORD'),
- getenv('MYSQL_ADDON_PORT')
-)); 
-
 <?php
-/*$DB_HOST = "bmt6d21l2lvalxwtzw6e-mysql.services.clever-cloud.com";
+$DB_HOST = "bmt6d21l2lvalxwtzw6e-mysql.services.clever-cloud.com";
 $DB_NAME = "bmt6d21l2lvalxwtzw6e";
 $DB_USERNAME = "uwbmnigylsvyg8aq";
 $DB_PASSWORD='72lCQOrmwSoLp76FxUKG';
@@ -19,5 +11,5 @@ try{
 }catch(PDOException $e){
     die('Erreur: '.$e->getMessage());
 }
-*/
+
 ?>
