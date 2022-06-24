@@ -52,7 +52,7 @@
     "gulp-mocha": "*",
     "gulp-replace": "*",
     "inputevent": "*",
-    "jsdom": "^9.2",
+    "jsdom": "^16.5",
     "mocha": "*",
     "moment": "*",
     "rollup": "*",
